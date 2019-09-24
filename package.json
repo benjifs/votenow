@@ -1,0 +1,26 @@
+{
+  "name": "votenow",
+  "version": "1.0.0",
+  "description": "Script to automate voting for XYZ's contests",
+  "keywords": [
+    "vote",
+    "votenow"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Benji Encalada Mora",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjifs/votenow.git"
+  },
+  "bugs": {
+    "url": "http://github.com/benjifs/votenow/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "request": "^2.88.0"
+  }
+}
